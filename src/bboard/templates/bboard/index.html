@@ -8,6 +8,14 @@
 	</head>
 	<body>
 		<h1>Объявления</h1>
+
+		<div>
+			<a href="/bboard/">Главная</a>
+			{% for rubric in rubrics %}
+			<a href="/bboard/{{ rubric.pk }}/">{{ rubric.name }}</a>
+			{% endfor %}
+		</div>
+
 		{% for bb in bbs %}
 		<div>
 			<h2>{{ bb.title }}</h2>
