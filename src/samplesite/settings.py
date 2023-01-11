@@ -81,6 +81,17 @@ DATABASES = {
     }
 }
 
+# пример базы данных
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'HOST': 'localhost',
+#         'USER': 'siteuser',
+#         'PASSWORD': 'sitepassword',
+#         'NAME': 'site',
+#     }
+# }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
